@@ -15,6 +15,9 @@
 		4729BDCE1CBF83A8000483C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4729BDCC1CBF83A8000483C2 /* LaunchScreen.storyboard */; };
 		4729BDD91CBF83A8000483C2 /* HttpsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4729BDD81CBF83A8000483C2 /* HttpsDemoTests.m */; };
 		4729BDE41CBF8546000483C2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4729BDE31CBF8546000483C2 /* README.md */; };
+		4729BDEB1CBF955F000483C2 /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 4729BDE81CBF955F000483C2 /* cert.cer */; };
+		4729BDEC1CBF955F000483C2 /* cert_p.cer in Resources */ = {isa = PBXBuildFile; fileRef = 4729BDE91CBF955F000483C2 /* cert_p.cer */; };
+		4729BDED1CBF955F000483C2 /* cert_pp.cer in Resources */ = {isa = PBXBuildFile; fileRef = 4729BDEA1CBF955F000483C2 /* cert_pp.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		4729BDD81CBF83A8000483C2 /* HttpsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpsDemoTests.m; sourceTree = "<group>"; };
 		4729BDDA1CBF83A8000483C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4729BDE31CBF8546000483C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4729BDE81CBF955F000483C2 /* cert.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.cer; sourceTree = "<group>"; };
+		4729BDE91CBF955F000483C2 /* cert_p.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert_p.cer; sourceTree = "<group>"; };
+		4729BDEA1CBF955F000483C2 /* cert_pp.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert_pp.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		4729BDBD1CBF83A8000483C2 /* HttpsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4729BDE71CBF955F000483C2 /* TestBDCerts */,
 				4729BDC11CBF83A8000483C2 /* AppDelegate.h */,
 				4729BDC21CBF83A8000483C2 /* AppDelegate.m */,
 				4729BDC41CBF83A8000483C2 /* ViewController.h */,
@@ -112,6 +119,16 @@
 				4729BDDA1CBF83A8000483C2 /* Info.plist */,
 			);
 			path = HttpsDemoTests;
+			sourceTree = "<group>";
+		};
+		4729BDE71CBF955F000483C2 /* TestBDCerts */ = {
+			isa = PBXGroup;
+			children = (
+				4729BDE81CBF955F000483C2 /* cert.cer */,
+				4729BDE91CBF955F000483C2 /* cert_p.cer */,
+				4729BDEA1CBF955F000483C2 /* cert_pp.cer */,
+			);
+			path = TestBDCerts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,8 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4729BDED1CBF955F000483C2 /* cert_pp.cer in Resources */,
 				4729BDCE1CBF83A8000483C2 /* LaunchScreen.storyboard in Resources */,
 				4729BDCB1CBF83A8000483C2 /* Assets.xcassets in Resources */,
+				4729BDEB1CBF955F000483C2 /* cert.cer in Resources */,
+				4729BDEC1CBF955F000483C2 /* cert_p.cer in Resources */,
 				4729BDC91CBF83A8000483C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
